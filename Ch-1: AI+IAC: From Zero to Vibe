@@ -112,19 +112,23 @@ Overall, this section helps us understand how AI makes Infrastructure as Code mo
 
   > Vibe vs Spec Workflows : 
   --------------------------
-      Vibe Mode – Exploration and Creativity :
+      Vibe Mode – Exploration and Creativity : [Chat-based AI coding]
       ----------------------------------------- 
         Vibe mode is used when we are exploring ideas or learning. In this mode, we write natural language prompts instead of detailed specifications. 
         We work in an iterative way, where we generate code, review it, and keep improving it through conversation with AI. This approach encourages creative problem solving and fast experimentation. 
         Vibe mode is best suited for prototyping, proof-of-concepts, and learning new tools or technologies.
-        Common tools used in this mode include VS Code with GitHub Copilot and Cursor, which support AI-assisted coding through prompts and suggestions.
+        Common tools used in this mode include : 
+            Tools: VSCode + Copilot, Cursor IDE
+       
 
-     Spec Mode – Production and Structure :
+     Spec Mode – Production and Structure : [Specification-driven AI]
      --------------------------------------
        Spec mode is used when we are building production-ready systems. In this mode, we start with clear, declarative specifications that define exactly how the system should behave.
        The workflow is structured and repeatable, ensuring that the same inputs always produce consistent and reliable outputs. 
        This makes spec mode ideal for production environments, where stability, compliance, and predictability are important.
        Spec mode often uses specialized tools or IDEs that support structured design and specification-driven development, such as tools focused on spec writing and controlled code generation.
+       Common tools used in this mode include :
+          Tools: Kiro IDE, BeeAI
   
      Simple Comparison (Easy to Remember 🧠)
      =======================================
