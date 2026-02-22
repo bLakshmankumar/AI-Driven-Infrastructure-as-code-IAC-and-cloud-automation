@@ -98,3 +98,14 @@ Overall, this section helps us understand how AI makes Infrastructure as Code mo
           Understand the output instead of memorizing everything
           Vibe coding does not mean we ignore the code completely. 
       We still review and understand it, but we rely on AI to handle the heavy lifting.
+
+  > Vibe Coding Conversation Flow or vibe coding approach : [Describe → AI generates → We refine → We deploy and improve.]
+  ---------------------------------------------------------  
+    1️⃣ Express Intent
+         👉 We clearly describe what infrastructure or code we want to build using natural language.
+    2️⃣ AI Interprets
+         👉 AI understands our requirement, context, and tools, and converts the intent into technical logic.
+    3️⃣ Review and Refine
+         👉 We review the generated code, make corrections, add details, and guide the AI to improve it.
+    4️⃣ Deploy and Evolve
+         👉 We deploy the solution and continuously update or extend it by repeating the same AI-driven process.
