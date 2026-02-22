@@ -1,0 +1,65 @@
+Introduction to this course :
+=============================
+In this 5-hours course, We will explore how Al can revolutionize Infrastructure as Code (lad) and cloud automation. Learn to automate cloud systems and optimize workflows with Al tools like Terraform, AWS, and GitHub Copilot
+ 
+What I will be able to do after this course :
+---------------------------------------------
+Integrate Al in Infrastructure as Code for cloud automation
+Master Vibe coding techniques for efficient lac development
+Generate Terraform code and integrate it with AWS services
+Use GitHub Copilot for Al-powered code generation
+Optimize laC workflows with Al-driven agents
+ 
+Course Instructor(s) :
+---------------------
+Gourav Shah is a DevOps expert with 15+ years of experience. He has taught over 65,000 students and delivered 300+ instructor-led workshops globally. He is the founder of Initcron and a published author on eDX.
+ 
+Who is it for :
+---------------
+This course is perfect for software developers, DevOps engineers, and system architects with a basic understanding of cloud computing and programming. It's designed for those looking to enhance their skills in Al-driven infrastructure management and automation.
+
+Course Outline :
+================
+Chapter-1 : IAC code generation with AI - From Zero to Vibe coding :
+-----------
+   > Module intro 
+   > What is Vibe Coding ? Getting started with the concepts 
+   > Emergence of the AI-Automated Biaonic DevOps Engineer 
+   > Setting Up VSCode, Terraform, AWS, GitHub Copilot
+   > Project Spec and tools overview 
+   > Vibe Code Principle 1 - Starting with intent
+   > Vibe Code Step 2 - Iterative Refinement 
+   > Project Wrap-Up, Key Takaways, and Cleaing UP
+
+Chapter-2 : Build a Terraform module Using code agents 
+-----------
+  > Module Intro
+  > Vibe Coding Recap and Using Copilot Agentic Capabilities
+  > Project Spec Deep Dive - 3- Tier Infra provisioning with terraform 
+  > Quick Overview of terraform Concepts 
+  > Why do you need an MCP server for Terraform ?
+  > Connecting Copilot with Terraform Documentation Using MCP 
+  > Genrating terraform Code for VPC with AI
+  > Setting Up MySQL RDS with Prompts
+  > Provisioning Ec2 Instance with User data using Copilot
+  > Adding database configuration with AI
+  > Summary.
+
+Chapter-3 : AI-Agent Augmented, Spec-Driven code with Kiro IDE 
+------------
+  > Module Intro
+  > Understanding Concepts Related to Spec-Based AI Coding 
+  > Introduction to Kiro-Spec Native AI Idea by Amazon
+  > Overview of the Project you will build in this module 
+  > Exploring Kiro IDE interface and components
+     > Step-1 : Analyzing User stories and Requirements
+     > Step-2 : Analyzing Design Spec Created by Kiro
+     > Reviewing Implementation plan and Tasks list
+  > Configuring Agent Settings and Agent Hooks
+  > Alalyzing the first task execution
+  > Generating Terraform validation code with tasks
+  > Applying terraform Code and troubleshooting issues with AI Agent 
+  > Refining and iteration with Code Agents to fix AMI and health checks
+  > Running Validation and final verdict with Spec-Driven AI coding
+  > Summary
+  
