@@ -49,5 +49,17 @@ Another important concept we will learn is how natural language can be converted
 This means we can describe our infrastructure requirements in simple English, and AI will generate the corresponding Terraform code for us. 
 This makes Infrastructure as Code easier to learn and faster to implement.
 Overall, this section helps us understand how AI makes Infrastructure as Code more efficient, more accessible, and more practical for real-world use.
-  
+
+ > The Power of AI in Infrastructure (Simple Explanation) :
+ ----------------------------------------------------------
+   Before AI :
+   -----------
+   Before AI, building infrastructure took a lot of manual effort. We spent many hours writing boilerplate code, even for simple resources. Small syntax mistakes or configuration errors were very common and caused repeated failures. 
+   We also had to manually apply best practices by reading documentation and examples. Because of this, the learning curve was slow, especially when learning new tools or cloud services.
+   With AI :
+   ---------
+   With AI, the experience changes completely. We can generate infrastructure code in minutes instead of hours. AI helps with instant syntax correction, so errors are caught early. 
+   It also applies best practices automatically, based on common standards and patterns. As a result, learning new tools and technologies becomes much faster, and teams can adopt new platforms more easily.
+
+
 
