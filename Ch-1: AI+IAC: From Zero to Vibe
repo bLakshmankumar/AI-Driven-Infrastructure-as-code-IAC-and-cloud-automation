@@ -27,7 +27,7 @@ Explanation in simple :
   For the project, we will provision an EC2 instance using AI assistance.
   We will use an AWS free tier account, so we don’t have to worry about infrastructure costs.
 
-2 What is AI-Driven IaC and why should you care ? :
+2. What is AI-Driven IaC and why should you care ? :
 ---------------------------------------------------
     Traditional IAC :                                      AI-Driven IAC  
   manual code writing from scratch                  AI-Assisted code generation
@@ -61,5 +61,40 @@ Overall, this section helps us understand how AI makes Infrastructure as Code mo
    With AI, the experience changes completely. We can generate infrastructure code in minutes instead of hours. AI helps with instant syntax correction, so errors are caught early. 
    It also applies best practices automatically, based on common standards and patterns. As a result, learning new tools and technologies becomes much faster, and teams can adopt new platforms more easily.
 
+3. How Do We Write Code with AI? :
+-----------------------------------
+   In the previous section, we understood why AI-driven code generation is important.
+   Now, let’s focus on the how part — how do we actually start writing code with AI?
+   The simple answer is: vibe coding.
 
+  > What is Vibe Coding? : [ simply Vibe coding means writing code by describing what we want and letting AI generate and refine the implementation]
+  ------------------------
+     Instead of following the traditional, very detailed, and manual way of coding, we use a concept called vibe coding. Vibe coding means we do not start by writing code line by line. 
+     Instead, we start by describing what we want to build and allow AI to help us generate the code.
+     In vibe coding, we treat coding as a conversation rather than a strict step-by-step process. We explain our requirement in natural language, and the AI responds by generating infrastructure code. 
+     We then review the output, refine our request if needed, and continue the conversation until the solution looks correct.
+     This approach allows us to let go of the need to remember exact syntax or every Terraform resource in advance. We still understand what the infrastructure is doing, but we do not worry about writing every line manually. 
+     The AI handles the boilerplate and repetitive parts of the code.
+ 
+  > Traditional Approach vs Vibe Coding :
+  ---------------------------------------
+    Traditional approach :
+    ----------------------
+    In the traditional approach, writing infrastructure code usually starts with research. We read cloud documentation, study Terraform providers, understand available resources, and then manually write code for components like VPCs, subnets, security groups, and EC2 instances. 
+    This requires deep knowledge upfront and involves a lot of trial and error.
 
+    Vibe Coding :
+    ------------- 
+    With vibe coding, we start from the end goal, not the documentation. We describe the infrastructure we want, such as networking, compute, and security requirements, and AI generates the initial Terraform code. 
+    From there, we iterate and improve the code by giving additional instructions or corrections.
+    This makes the process faster and more beginner-friendly, while still allowing experienced engineers to move quickly.
+  
+   > Key Idea Behind Vibe Coding :
+   -------------------------------
+      The core idea of vibe coding is:
+          Focus on intent, not syntax
+          Use natural language, not just code
+          Iterate quickly with AI assistance
+          Understand the output instead of memorizing everything
+          Vibe coding does not mean we ignore the code completely. 
+      We still review and understand it, but we rely on AI to handle the heavy lifting.
