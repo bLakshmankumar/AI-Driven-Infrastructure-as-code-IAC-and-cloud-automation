@@ -1,0 +1,29 @@
+Chapter-1 : IAC Code Generation with AI - From Zero to vibe coding :
+====================================================================
+  Module Intro  :
+  ---------------
+    This is the very first module on how we can build our right infrastructure as a code using AI. 
+    and this is the module we're going to help build the in a coceptual foundation and also help you get from zero to web coding your way using the AI tools like Copilot and VS code and so on.
+
+  Learning Objectives : 
+  =====================
+   Let's look at what are the learning objective for this module :
+    > Understand AI-Driven Infrastructure as Code fundamentals : Use AI to generate infrastructure code instead of writing Terraform manually.
+    > Master the differnce between vibe and spec workflow      : Vibe is fast AI-assisted coding; Spec is slow, detailed, manual coding. 
+    > Set up vsc with GitHub Copilot & cursor                  : Set up AI tools in VS Code to auto-suggest, generate, and explain Terraform code.
+    > Generate terraform code fro aws using vibe coding        : Describe AWS resources in English and let AI create Terraform code.
+    > Complete mini project: Provision Ec2 with AI assistance  : Provision an EC2 instance using AI-generated Terraform as hands-on practice.
+Explanation in simple :
+-----------------------
+  In this module, we will first build a strong basic understanding of what AI-driven or AI-assisted Infrastructure as Code really means.
+  We will start by learning the traditional way of writing infrastructure code, and then compare it with vibe coding, where we use AI to help us write code faster and easier.
+  We will understand how AI helps in writing code, and also get introduced to spec-based workflows, which are more structured and used for production environments.
+  We will not go very deep into spec workflows now, but we will clearly understand the concepts, which we will use later in the course.
+  Next, we will set up our working environment, because this module includes a hands-on project.
+  The environment will be created in a way that everyone can follow, without spending money.
+  We will mainly use VS Code, which is free and open source, and available to everyone.
+  We will also use GitHub Copilot, an AI assistant that works inside VS Code. We can use it with a free personal GitHub account, so no paid tools are required.
+  Even though tools like Cursor exist and are paid, we will focus on free tools first, so everyone can learn comfortably.
+  For the project, we will provision an EC2 instance using AI assistance.
+  We will use an AWS free tier account, so we don’t have to worry about infrastructure costs.
+
