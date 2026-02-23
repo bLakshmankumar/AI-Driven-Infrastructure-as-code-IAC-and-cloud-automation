@@ -17,16 +17,6 @@ Project Details Project:
     Brief reflection on vibe coding experience 
   Time Allocation: 30 minutes
 
-What are we going to do here ?
-------------------------------
-  The goal of this project is to provision an EC2 instance using GitHub Copilot in vibe mode. Instead of writing Terraform code manually, we will interact with AI using natural language prompts and let Copilot help us generate the required Terraform configuration.
-  During the project, we will use Copilot to generate a complete Terraform setup, including an EC2 instance, a security group that allows SSH access, and a key pair so that we can connect to the instance. 
-  The EC2 instance will be created using the AWS Free Tier, specifically a t2.micro instance, so there is no cost involved.
-  To support this project, we will first set up our development environment. This includes installing and configuring VS Code, Terraform, AWS credentials, and GitHub Copilot. The setup is designed to be simple and accessible, so everyone can follow along.
-  As part of the learning process, we will also document our vibe coding experience. This means capturing screenshots of our interactions with Copilot and briefly reflecting on how AI helped us write infrastructure code. 
-  This helps reinforce learning and makes the experience more practical.
-  The project here is to provision the Ec2 instance using copilot in a vibe mode.
-
 > Mini Project: Provision EC2 Instance using Copilot in Vibe Mode :
 =====================================================================
    This mini project is our first hands-on experience with AI-driven Infrastructure as Code. The goal is to understand how we can use natural language and AI assistance to generate Terraform code and deploy real infrastructure on AWS.
@@ -70,4 +60,17 @@ What are we going to do here ?
      The EC2 instance is running
      We can SSH into the instance
    All Terraform code was generated using AI prompts
+
+> Our AI ToolChain :
+=====================
+  To build AI-driven Infrastructure as Code, we use a combination of AI tools and supporting technical tools. Each tool has a clear role in the workflow.
+  Primary Tools :                                                                          
+    > GitHub copilot : It's our AI coding assistant. It helps us generate Terraform code using natural language and provides smart code completions as we work.                 
+    > VsCode : It's our main development environment. This is where we write code, run Terraform commands, and integrate AI tools like Copilot.                            
+    > Cursor : It's is an AI-first code editor. It allows us to chat with AI about our code, ask for changes, explanations, or improvements, and iterate quickly in vibe mode.                       
+    > Kiro IDE : It's is used for spec-driven development, which we will learn in a later module(module 3). It focuses on structured, specification-based workflows suitable for production systems.
+  Supproting Tools :
+    > Terraform: Infrastructue as a code we use to define and provision cloud resources.
+    > AWS CLI : Cloud Provider interface, Allowing Terraform and our local system to authenticate and interact with AWS services.
+    > Git : Version Control, helping us track changes, collaborate with others, and manage our code safely.
 
