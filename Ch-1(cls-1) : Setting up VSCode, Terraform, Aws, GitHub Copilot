@@ -1,0 +1,73 @@
+Till now we understand the concepts, it is time to move into the project part of this module. In this class, we will start our hands-on journey into AI-driven Infrastructure as Code by working on a small but practical project.
+Project Details Project:
+========================
+  Provision EC2 Instance using Copilot in vibe Mode
+  Requirements:
+  -------------
+    Use natural language prompts with Copilot 
+    Generate complete Terraform configuration 
+    Include security group with SSH access 
+    Add key pair for instance access 
+    Deploy to AWS Free Tier (t2.micro) 
+    Document your vibe coding experience
+  Deliverables:
+  -------------
+    Working Terraform code 
+    Screenshots of Al interaction 
+    Brief reflection on vibe coding experience 
+  Time Allocation: 30 minutes
+
+What are we going to do here ?
+------------------------------
+  The goal of this project is to provision an EC2 instance using GitHub Copilot in vibe mode. Instead of writing Terraform code manually, we will interact with AI using natural language prompts and let Copilot help us generate the required Terraform configuration.
+  During the project, we will use Copilot to generate a complete Terraform setup, including an EC2 instance, a security group that allows SSH access, and a key pair so that we can connect to the instance. 
+  The EC2 instance will be created using the AWS Free Tier, specifically a t2.micro instance, so there is no cost involved.
+  To support this project, we will first set up our development environment. This includes installing and configuring VS Code, Terraform, AWS credentials, and GitHub Copilot. The setup is designed to be simple and accessible, so everyone can follow along.
+  As part of the learning process, we will also document our vibe coding experience. This means capturing screenshots of our interactions with Copilot and briefly reflecting on how AI helped us write infrastructure code. 
+  This helps reinforce learning and makes the experience more practical.
+  The project here is to provision the Ec2 instance using copilot in a vibe mode.
+
+> Mini Project: Provision EC2 Instance using Copilot in Vibe Mode :
+=====================================================================
+   This mini project is our first hands-on experience with AI-driven Infrastructure as Code. The goal is to understand how we can use natural language and AI assistance to generate Terraform code and deploy real infrastructure on AWS.
+   Mission Brief – What We Are Doing :
+   ------------------------------------
+     In this project, our challenge is to use GitHub Copilot as an AI assistant to generate a complete Terraform configuration using natural language prompts. 
+     Instead of writing Terraform code manually, we will describe what we want, and Copilot will help generate the code. Once the code is ready, we will deploy it to AWS.
+     This project is designed for beginners to intermediate developers, so no deep Terraform expertise is required. The entire activity is expected to take around 30 minutes, focusing on learning by doing.
+
+   Technical Requirements – What the Project Must Include :
+   --------------------------------------------------------
+     While using AI prompts, we will make sure the generated Terraform code includes:
+     A security group that allows SSH access on port 22
+     A key pair so we can connect to the EC2 instance
+     Deployment using the AWS Free Tier with a t2.micro instance
+   All infrastructure code should be generated through AI prompts, not written manually.
+  
+   What We Will Build :
+   ---------------------
+   As part of this project, we will create:
+      A default VPC in the us-west-2 region
+   A security group that:
+      Allows inbound SSH traffic from anywhere
+      Allows all outbound traffic
+  An EC2 instance using Amazon Linux
+  A key pair for SSH access
+  Proper tags for resource identification
+  By the end, we will have a fully working EC2 setup created through AI-assisted Terraform code.
+  
+  Deliverables – What We Need to Submit :
+  ----------------------------------------
+    At the end of the project, we should have:
+       Working Terraform code
+       Screenshots of AI (Copilot) interactions
+       A brief reflection document explaining our vibe coding experience
+    This helps us show both the technical output and the learning process.
+
+  Success Criteria – How We Know It Worked :
+  ------------------------------------------
+   The project is successful if:
+     The EC2 instance is running
+     We can SSH into the instance
+   All Terraform code was generated using AI prompts
+
