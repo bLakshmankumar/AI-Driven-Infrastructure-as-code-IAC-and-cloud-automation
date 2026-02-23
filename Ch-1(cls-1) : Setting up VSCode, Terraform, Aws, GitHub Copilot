@@ -74,3 +74,31 @@ Project Details Project:
     > AWS CLI : Cloud Provider interface, Allowing Terraform and our local system to authenticate and interact with AWS services.
     > Git : Version Control, helping us track changes, collaborate with others, and manage our code safely.
 
+> Installation Steps:
+  -------------------
+    1. Install Visual Studio Code 
+    2. Install GitHub Copilot extension 
+    3. Authenticate with GitHub account (requires free/paid subscription) 
+    4. Install Terraform extension for VS Code 
+    5. Configure AWS CLI with Free Tier credentials 
+    6. Install HashiCorp Terraform extension 
+    Pro Tips: 
+      Enable Copilot Labs for enhanced features Configure Copilot to suggest whole functions 
+      Use Ctrl+Enter to see all suggestions
+ 
+ > Setting Up Cursor IDE : 
+ -------------------------
+     Why Cursor :
+     ------------
+       1. Built-in Al chat for code discussions 
+       2. Fontext-aware code generation (e.g. index all your kubernetes docs) 
+       3. Agent mode for autonomous coding 
+       4. Natural language to code conversion 
+       5. Multiple Al model support (GPT-4, Claude) 
+     Setup Process: 
+     --------------
+       1. Download from cursor.sh 
+       2. Import existing VSCode settings 
+       3. Configure preferred Al models 
+       4. Set up project-specific contexts 
+
